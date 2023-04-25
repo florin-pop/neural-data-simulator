@@ -1,2 +1,0 @@
-myst-parser >= 0.18.0
-sphinx-material >= 0.0.35
