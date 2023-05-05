@@ -22,7 +22,7 @@
 Train models for the encoder and decoder
 ========================================
 
-.. currentmodule:: nds
+.. currentmodule:: neural_data_simulator
 
 This example illustrates the steps required to train and save models
 for the NDS encoder and decoder. The encoder model is used to convert
@@ -224,7 +224,7 @@ from the dataset, but clip them, then apply the scaler.
 
     import os
 
-    from nds.util.runtime import get_sample_data_dir
+    from neural_data_simulator.util.runtime import get_sample_data_dir
 
     STANDARDIZED_BEHAVIOR_DATA_PATH = os.path.join(
         get_sample_data_dir(), "session_4_behavior_standardized.npz"
@@ -663,7 +663,7 @@ Dump the model to a file that can be used in the decoder configuration.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 1 minutes  30.093 seconds)
+   **Total running time of the script:** ( 1 minutes  9.523 seconds)
 
 
 .. _sphx_glr_download_auto_examples_plot_train_encoder_and_decoder_model.py:
